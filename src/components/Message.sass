@@ -1,0 +1,29 @@
+.Message
+    width: fit-content
+    &__Content
+        font-size: 16px
+    &__Timestamp
+        font-size: 10px
+        color: #999
+        margin-left: 1em
+    &__Inner
+        display: flex
+        padding: 10px
+        background-color: white
+        border-radius: 10px
+        align-items: flex-end
+        margin-top: 4px
+        box-shadow: 0 2px 1px  rgba(0,0,0,.1)
+        overflow: hidden
+    &__Author
+        font-size: 12px
+        margin: 0 8px
+        margin-top: 14px
+        font-weight: bold
+    &-Receiver
+        margin-left: auto
+        .Message__Inner
+            background: #e5f7ce
+        .Message__Author
+            text-align: right
+            
